@@ -157,3 +157,4 @@ Route::delete('transaksipembeli/destroy/{id}', [TransaksiPembeliController::clas
 Route::get('transaksipembeli/detail/{id}', [TransaksiPembeliController::class,'show'])->name('transaksipembeli.show');
 Route::post('transaksipembeli/proses', [TransaksiPembeliController::class, 'proses'])->name('proses.transaksi');
 
+//zora
