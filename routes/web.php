@@ -158,4 +158,3 @@ Route::get('transaksipembeli/detail/{id}', [TransaksiPembeliController::class,'s
 Route::post('transaksipembeli/proses', [TransaksiPembeliController::class, 'proses'])->name('proses.transaksi');
 
 
-// ok
